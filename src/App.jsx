@@ -50,10 +50,11 @@ function App() {
 
   return (
     <>
-      <header>
+    
+      <div className="header">
         <nav style={{ "marginBottom": "2vh" }}>
-          <Navbar style={{"width": "100%"}} expand="lg" bg="dark" variant="dark">
-            <Container>
+          <Navbar expand="md" bg="dark" variant="dark">
+            <Container fluid>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
@@ -74,7 +75,7 @@ function App() {
             </Container>
           </Navbar>
         </nav>
-      </header>
+      </div>
 
 
       <Container id="container" className="d-flex align-items-center ">

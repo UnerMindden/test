@@ -1,6 +1,7 @@
 
-header {
+.header {
   font-size: 14px;
+  
 }
 
 .forward-button {
@@ -44,7 +45,10 @@ header {
   text-align: center;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 390px) {
+  nav {
+    width: 59vh;
+  }
 }
 
 .myFirstPlayer {
