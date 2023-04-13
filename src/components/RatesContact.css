@@ -1,0 +1,15 @@
+.green, a:hover {
+    color: #1EC68C;
+}
+
+.col {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

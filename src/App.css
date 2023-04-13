@@ -1,8 +1,7 @@
+
 header {
   font-size: 14px;
 }
-
-
 
 .forward-button {
   color: #1EC68C;
@@ -22,12 +21,10 @@ header {
 .main-content {
   background-color: white;
   border-radius: 30px;
-
 }
 
 .main-content {
   padding: 5vh;
-  justify-content: center;
 }
 
 .main-buttons {
@@ -46,3 +43,12 @@ header {
   padding-top: 2vh;
   text-align: center;
 }
+
+@media (max-width: 991px) {
+}
+
+.myFirstPlayer {
+  display: flex;
+  justify-content: center;
+}
+
